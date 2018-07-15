@@ -1,7 +1,8 @@
 def run_guessing_game
   print "Guess a number between 1 and 6"
   user_in = gets.chomp.to_i
-  while computer_in = rand(1..6) 
+  computer_in = rand(1..6) 
+  while 
   if user_in == "exit"
     puts "Goodbye!"
     break
