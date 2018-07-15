@@ -12,3 +12,19 @@ def run_guessing_game
     end
   end
 end
+
+puts "Would you like to give us your name? (type yes or no)"
+while answer = gets.chomp
+  case answer
+  when "yes"
+    print "What's your name?"
+    name = gets.chomp
+    puts "Nice to meet you, #{name}"
+    break
+  when "no"
+    puts "Oh, ok. Good bye"
+    break
+  else
+    puts "You need to answer yes or no"
+  end
+end
