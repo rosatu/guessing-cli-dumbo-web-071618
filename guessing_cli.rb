@@ -1,4 +1,3 @@
-# Code your solution here!
 def run_guessing_game
   print "Guess a number between 1 and 6"
   user_in = gets.chomp.to_i
